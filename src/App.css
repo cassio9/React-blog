@@ -1,0 +1,45 @@
+:root {
+  --Lora: "Lora", serif;
+  --Ubuntu: "Ubuntu", sans-serif;
+  --main-dark-blue: #143774;
+  --white: #ffffff;
+  --grey: #707070;
+  --main-blue: #1792d2;
+  --back-nav: #f8f8f8;
+  --back-section: #ebebeb;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: var(--Ubuntu);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background-color: var(--main-dark-blue);
+  padding: 74px 0;
+}
+
+.footer-container h6 {
+  font-size: 1.1rem;
+  color: var(--white);
+  opacity: 50%;
+  margin: 0;
+}
+
+.footer-container p {
+  font-size: 1rem;
+  color: var(--white);
+  font-weight: 300;
+  opacity: 50%;
+  margin: 0.5rem;
+}
