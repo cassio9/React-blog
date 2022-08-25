@@ -118,6 +118,7 @@
 
   .home-recent-container {
     margin-top: 43px;
+    padding: 20px 20px;
   }
 
   .home-recent-container img {
@@ -131,5 +132,55 @@
     color: var(--main-blue);
     margin: 1rem 0;
     font-size: 1.4rem;
+  }
+
+  .aside-flex {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .aside-flex .date {
+    position: absolute;
+    bottom: 16px;
+    left: 30px;
+  }
+
+  .flex-img {
+    object-fit: cover;
+    width: 50%;
+    margin-right: 1.5em;
+    margin-top: 1em;
+  }
+  .food-img {
+    height: 220px;
+  }
+
+  .details-container {
+    width: 60%;
+  }
+
+  .date-h2-container-home {
+    display: block;
+  }
+
+  .work-img {
+    height: 200px;
+    object-position: center;
+  }
+
+  .deco-img {
+    height: 250px;
+    object-position: left;
+  }
+}
+
+@media (min-width: 933px) {
+  .flex-img {
+    padding-bottom: 40px;
+  }
+  .food-img {
+    height: 175px;
   }
 }

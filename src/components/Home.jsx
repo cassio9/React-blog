@@ -27,50 +27,60 @@ function Home() {
           </p>
           <p className="continue">continue reading</p>
         </main>
-        <aside className="aside-home">
+        <aside className="aside-home aside-flex">
           <img
-            className="home-img"
+            className="home-img flex-img food-img"
             src={food}
             alt="chinese food in a bowl with chopsticks"
           />
-          <div className="date-h2-container-home">
-            <p className="date">July 23, 2019 | 3 comments</p>
-            <h2 className="main-h2">Keeping cooking simple</h2>
+          <div className="details-container ">
+            <div className="date-h2-container-home">
+              <p className="date">July 23, 2019 | 3 comments</p>
+              <h2 className="main-h2">Keeping cooking simple</h2>
+            </div>
+            <p className="main-paragraph">
+              Food is a very important part of everyone's life. If you want to
+              be healthy, you have to eat healthy. One of the easiest ways to do
+              that is to keep your cooking nice and simple.
+            </p>
+            <p className="continue">continue reading</p>
           </div>
-          <p className="main-paragraph">
-            Food is a very important part of everyone's life. If you want to be
-            healthy, you have to eat healthy. One of the easiest ways to do that
-            is to keep your cooking nice and simple.
-          </p>
-          <p className="continue">continue reading</p>
         </aside>
-        <aside className="aside-home">
-          <img className="home-img" src={work} alt="work desk and chair" />
-          <div className="date-h2-container-home">
-            <p className="date">July 23, 2019 | 3 comments</p>
-            <h2 className="main-h2">Simplicity and work</h2>
+        <aside className="aside-home aside-flex">
+          <img
+            className="home-img flex-img work-img"
+            src={work}
+            alt="work desk and chair"
+          />
+          <div className="details-container ">
+            <div className="date-h2-container-home">
+              <p className="date">July 23, 2019 | 3 comments</p>
+              <h2 className="main-h2">Simplicity and work</h2>
+            </div>
+            <p className="main-paragraph">
+              Work is often a major source of stress. People get frustrated, it
+              ruins their relationship with others and it leads to burnout. By
+              keeping your work life as simple as possible, it will help balance
+              everything out.
+            </p>
+            <p className="continue">continue reading</p>
           </div>
-          <p className="main-paragraph">
-            Work is often a major source of stress. People get frustrated, it
-            ruins their relationship with others and it leads to burnout. By
-            keeping your work life as simple as possible, it will help balance
-            everything out.
-          </p>
-          <p className="continue">continue reading</p>
         </aside>
-        <aside className="aside-home">
-          <img className="home-img" src={deco} alt="" />
-          <div className="date-h2-container-home">
-            <p className="date">July 23, 2019 | 3 comments</p>
-            <h2 className="main-h2">Simple decorations</h2>
+        <aside className="aside-home aside-flex">
+          <img className="home-img flex-img deco-img" src={deco} alt="" />
+          <div className="details-container ">
+            <div className="date-h2-container-home">
+              <p className="date">July 23, 2019 | 3 comments</p>
+              <h2 className="main-h2">Simple decorations</h2>
+            </div>
+            <p className="main-paragraph">
+              A home isn't a home until you've decorated a little. People either
+              don't decorate, or they go overboard and it doesn't have the
+              impact they were hoping for. Staying simple will help draw the eye
+              where you want it to and make things pop like never before.
+            </p>
+            <p className="continue">continue reading</p>
           </div>
-          <p className="main-paragraph">
-            A home isn't a home until you've decorated a little. People either
-            don't decorate, or they go overboard and it doesn't have the impact
-            they were hoping for. Staying simple will help draw the eye where
-            you want it to and make things pop like never before.
-          </p>
-          <p className="continue">continue reading</p>
         </aside>
       </div>
       <div className="right-flex">
