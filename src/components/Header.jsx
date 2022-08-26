@@ -3,8 +3,8 @@ function Nav() {
     <div className="nav-container">
       <nav className="container">
         <header>
-          <h1>Living the simple life</h1>
-          <h6>A blog exploring minimalism in life</h6>
+          <h1 className="title">Living the simple life</h1>
+          <h6 className="sub-title">A blog exploring minimalism in life</h6>
         </header>
         <ul>
           <li>

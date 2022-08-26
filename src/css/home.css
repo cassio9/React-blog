@@ -6,6 +6,7 @@
   padding-bottom: 2em;
   margin: 1.2rem;
   border-bottom: 2px solid gray;
+  line-height: 1.6;
 }
 
 .home-img {
@@ -58,7 +59,6 @@
   color: var(--gray);
   font-weight: 300;
   padding-right: 0.5em;
-  line-height: 25px;
 }
 .span-strong {
   font-weight: 700;

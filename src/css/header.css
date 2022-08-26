@@ -66,4 +66,9 @@ nav li {
   nav a {
     letter-spacing: 2px;
   }
+
+  .title,
+  .sub-title {
+    margin-left: 1rem;
+  }
 }
